@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Attendance Needed",
+  "version": "1.0",
+  "description": "Shows classes needed to reach 75% attendance",
+
+  "content_scripts": [
+    {
+      "matches": ["https://mujslcm.jaipur.manipal.edu/Student/Academic/AttendanceSummaryForStudent"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
