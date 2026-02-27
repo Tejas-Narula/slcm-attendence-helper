@@ -18,9 +18,12 @@ if (!table) {
           const total   = parseInt(row.cells[8].textContent.trim());
           const lastElem = row.cells[9];
           const needed = Math.max(0, Math.ceil(3 * total - 4 * present));
+          const extra = Math.floor(present/0.75 - total)
 
-          if(needed && needed>0){
-            lastElem.innerHTML += `<br><span class="needed">attend ${needed} more classes</span>`
+          if(needed>0){
+            lastElem.innerHTML += `<div><span class="needed">${needed} ${needed == 1 ? 'class' : 'classes'} needed 😔</span></div>`
+          }else if(extra>-1){
+            lastElem.innerHTML += `<div><span class="needed">${extra} bunk(s) left ${extra== 0 ?'🙄' : '😃' }</span></div>`
           }
         }
 
