@@ -1,14 +1,37 @@
-I am currently in Manipal University Jaipur..
-whhen below 75% you always have the struggle to check how many more classes u need to attend before u reach 75%
+# **SLCMPlus**
 
-well no need for more struggle!
-See the number of classes needed to reach 75% directly on the portal
+A Chrome extension for MUJ students that enhances the SLCM experience by providing attendance analytics and automatic marks calculation directly within the portal.
 
+---
 
-To use:
-  - download zip, extract
-  - go to chrome://extensions/
-  - enable developer mode (top right)
-  - click load unpack and select unzipped folder
-  - go to mujslcm.jaipur.manipal.edu and check your attendence :)
+## Features
 
+- Shows how many classes can be missed while maintaining the required 75% attendance
+- Automatically calculates and displays total marks from tables
+- Integrates directly into the MUJ SLCM portal
+- Lightweight and simple to use
+
+---
+
+## Installation
+
+> Only for students of Manipal University Jaipur
+
+1. Click the **Code** button on the top-right of this repository
+2. Download the ZIP file and extract it
+3. Open Chrome and navigate to:
+
+```txt
+chrome://extensions/
+```
+
+4. Enable **Developer Mode**
+5. Click **Load Unpacked**
+6. Select the extracted extension folder
+7. Open the MUJ SLCM portal
+
+---
+
+Built with fear of low attendance, internal marks, and placements.
+
+by **Tejas Narula :)**

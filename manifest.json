@@ -1,14 +1,23 @@
 {
   "manifest_version": 3,
-  "name": "Attendance Needed",
-  "version": "1.0",
-  "description": "Shows classes needed to reach 75% attendance",
+  "name": "SlcmPlus",
+  "version": "1.1",
+  "description": "Improves the workflow and provide incredible and neccary insights for MUJ`s students",
 
   "content_scripts": [
     {
-      "matches": ["https://mujslcm.jaipur.manipal.edu/Student/Academic/AttendanceSummaryForStudent"],
+      "matches": [
+        "https://mujslcm.jaipur.manipal.edu/Student/Academic/AttendanceSummaryForStudent",
+        "https://mujslcm.jaipur.manipal.edu/Student/Academic/InternalMarkForStudent"
+      ],
       "js": ["content.js"],
       "css": ["styles.css"]
     }
-  ]
+  ],
+
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
 }
